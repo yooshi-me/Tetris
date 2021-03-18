@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Let's Tetris!</title>
+</head>
+
+<body onLoad="discription()">
+    <div class="header">
+        <h1 id="display">SCORE: 0 PASS:3  Lv: 1</h1>
+    </div>
+    <div class="main">
+        <canvas id="field" style="background-color:rgb(148, 149, 165);"></canvas>
+        <button id="leftButton" onclick="left()">左</button>
+        <button id="downButton" onclick="down()">下</button>
+        <button id="rightButton" onclick="right()">右</button>
+        <button id="roleButton" onclick="role()">回転</button>
+        <button id="passButton" onclick="pass()">パス</button>
+        <button id="passButton" onclick="stop()">一時停止</button>
+    </div>
+</body>
+
+</html>
