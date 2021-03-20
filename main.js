@@ -5,7 +5,6 @@ let leftCalled = 0;
 let rightCalled = 0;
 let roleCalled = 0;
 let canrole = 0;
-let roleCalled = 0;
 let downCalled = 0;
 let passCalled = 0;
 let passCount = 0;
