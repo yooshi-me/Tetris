@@ -3,6 +3,7 @@
 ## プログラム概要
 HTMLとJavaScriptの学習用に作成しました。
 HTMLファイルを起動するとゲームがスタートします。
+![Videotogif (1)](https://user-images.githubusercontent.com/79317230/197685806-60227e80-4140-43fa-8ae7-ef487080e87a.gif)
 
 
 
